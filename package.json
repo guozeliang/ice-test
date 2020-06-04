@@ -1,0 +1,46 @@
+{
+  "name": "ice-cms",
+  "version": "0.1.6",
+  "description": "后台管理系统",
+  "dependencies": {
+    "@alifd/next": "^1.20.5",
+    "@alifd/theme-14045": "^1.0.0",
+    "moment": "^2.26.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "umbrella-storage": "^1.0.2"
+  },
+  "devDependencies": {
+    "@ice/spec": "^1.0.1",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "build-plugin-fusion": "^0.1.0",
+    "build-plugin-moment-locales": "^0.1.0",
+    "eslint": "^6.8.0",
+    "ice.js": "^1.4.0",
+    "stylelint": "^13.2.0"
+  },
+  "scripts": {
+    "start": "icejs start",
+    "build": "icejs build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "ideMode": {
+    "name": "ice-react"
+  },
+  "iceworks": {
+    "type": "react",
+    "adapter": "adapter-react-v3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alibaba-fusion/materials/tree/master/scaffolds/scaffold-lite"
+  },
+  "private": true,
+  "originTemplate": "@alifd/scaffold-lite"
+}
