@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button, Table } from '@alifd/next';
-import { store as pageStore } from 'ice/Testpower'
+import { store as pageStore } from 'ice/TableTest'
 
 const Guide = () => {
   // const [dataSource, setDataSource] = useState(result);

@@ -4,7 +4,7 @@ import Guide from './components/Guide';
 
 const { Cell } = ResponsiveGrid;
 
-const Testpower = () => {
+const TableTest = () => {
   return (
     <ResponsiveGrid gap={20}>
       <Cell colSpan={12}>
@@ -14,4 +14,4 @@ const Testpower = () => {
   );
 };
 
-export default Testpower;
+export default TableTest;
